@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001/books';
+const API_URL = 'https://lumina-backend-zjud.onrender.com';
 
 export const getBooks = async () => {
   const response = await axios.get(API_URL);
